@@ -14,6 +14,4 @@ class car:
         print("\n",self.color,"\n",self.model,"\n",self.year,"\n",self.brand,"\n",self.noOfOwners)
 
 MyCar=car("Red","Sedan","2018","Rolls Royace","10")
-MyCar.displayMyCar()
-
-    
+MyCar.displayMyCar()  
