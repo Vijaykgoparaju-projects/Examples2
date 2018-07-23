@@ -10,6 +10,8 @@ name=input("please enter your name for creating candidate:-\n")
 age=input("please enter your candidate age\n")
 p1 = Person(name, age)
 p1.myfunc()
+p1.name="Bhanu Chandra"
+print(p1.name)
 del p1
 try:
   print(p1)
