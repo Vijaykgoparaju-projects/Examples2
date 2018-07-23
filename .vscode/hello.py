@@ -6,7 +6,8 @@ class car:
     noOfOwners=0
     regNo=""
     area=""
-    def __init__(self, color, model,year,brand,noOfOwners,regNo,area):
+    country=""
+    def __init__(self, color, model,year,brand,noOfOwners,regNo,area,country):
         self.color=color
         self.model=model
         self.year=year
@@ -14,11 +15,12 @@ class car:
         self.noOfOwners=noOfOwners
         self.regNo=regNo
         self.area=area
+        self.country=country
 
     def displayMyCar(self):
-        print("\n",self.color,"\n",self.model,"\n",self.year,"\n",self.brand,"\n",self.noOfOwners,"\n",self.regNo,"\n",self.area)
+        print("\n",self.color,"\n",self.country,"\n",self.model,"\n",self.year,"\n",self.brand,"\n",self.noOfOwners,"\n",self.regNo,"\n",self.area)
 
-MyCar=car("Red","Sedan","2018","BMW","10","TS07","miyapur")
+MyCar=car("Red","Sedan","2018","BMW","10","TS07","miyapur","India")
 MyCar.displayMyCar()
 
     
