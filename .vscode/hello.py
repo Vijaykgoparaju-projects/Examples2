@@ -20,5 +20,8 @@ class car:
 
 MyCar=car("Red","Sedan","2018","BMW","10","TS07","miyapur")
 MyCar.displayMyCar()
+colorOfMyCar=MyCar.color
+MyCar.color="green"
+print(MyCar.color)
 
     
