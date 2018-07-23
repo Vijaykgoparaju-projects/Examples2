@@ -7,3 +7,5 @@ def systemInfoDisplay():
     print("All variables and functions in your system are:-",x)
 def printFunction(textToPrint):
     print("\n Here is the text you have passed \n",textToPrint)
+def printArchitecture():
+    print("\n Here is the text you have passed \n",platform.architecture)
